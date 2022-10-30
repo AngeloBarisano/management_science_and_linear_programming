@@ -23,7 +23,6 @@ var/
 .installed.cfg
 *.egg
 
-management_science_and_linear_programming/notebooks/initial tutorials/movie_metadata.csv
 
 bin/
 include/
