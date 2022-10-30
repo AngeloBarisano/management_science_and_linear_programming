@@ -3,6 +3,11 @@ Management_Science
 
 this is a course for university set up in the geneal venv form
 
+
+source ~/anaconda3/bin/activate root
+anaconda-navigator
+
+
 Project Organization
 ------------
 
