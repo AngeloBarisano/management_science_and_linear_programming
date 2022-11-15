@@ -1,11 +1,14 @@
 \ LP format - for model browsing. Use MPS format to capture full model detail.
 Minimize
-  22 C0 + 14 C1 + 7 C2 + 18 C3 + 11 C4 + 5 C5 + 18 C6 + 11 C7 + 13 C8
-   + 14 C9 + 8 C10 + 11 C11
+  200 Purc_A[0] + 200 Purc_A[1] + 200 Purc_A[2] + 200 Purc_A[3]
+   + 200 Purc_A[4] + 200 Purc_A[5] + 200 Purc_A[6] + 200 Purc_B[0]
+   + 200 Purc_B[1] + 200 Purc_B[2] + 200 Purc_B[3] + 200 Purc_B[4]
+   + 200 Purc_B[5] + 200 Purc_B[6] + 20 Eab[0] + 20 Eab[1] + 20 Eab[2]
+   + 20 Eab[3] + 20 Eab[4] + 20 Eab[5] + 20 Eab[6] + 20 Eba[0] + 20 Eba[1]
+   + 20 Eba[2] + 20 Eba[3] + 20 Eba[4] + 20 Eba[5] + 20 Eba[6] + 5 Cab[0]
+   + 5 Cab[1] + 5 Cab[2] + 5 Cab[3] + 5 Cab[4] + 5 Cab[5] + 5 Cab[6]
+   + 5 Cba[0] + 5 Cba[1] + 5 Cba[2] + 5 Cba[3] + 5 Cba[4] + 5 Cba[5]
+   + 5 Cba[6]
 Subject To
- R0: C6 + C7 + C8 + C9 + C10 + C11 <= 50000
- R1: C0 + C1 + C2 + C3 + C4 + C5 <= 10000
- R2: C0 + C1 + C2 + C6 + C7 + C8 = 20000
- R3: C3 + C4 + C5 + C9 + C10 + C11 = 75000
 Bounds
 End
